@@ -9,7 +9,7 @@ export default function PostAuthor() {
             <img src={avatar} alt="" />
         </div>
         <div className='post-author-details'>
-            <h5>By: John Doe</h5>
+            <h5>By: Miracle John</h5>
             <small>Just Now</small>
         </div>
 

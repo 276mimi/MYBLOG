@@ -1,10 +1,10 @@
 import React from 'react'
-import Posts from '../Components/Posts'
+import CategoryPosts from './CategoryPosts'
 
 export default function Home() {
   return (
     <>
-     <Posts />
+     <CategoryPosts/>
     </>
   )
 }

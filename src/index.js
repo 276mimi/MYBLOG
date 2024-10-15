@@ -17,6 +17,7 @@ import Logout from './pages/LogOut';
 import CategoryPosts from './pages/CategoryPosts';
 import AuthorPosts from './pages/AuthorPosts';
 import Dashboard from './pages/Dashboard';
+import Posts from './Components/Posts'
 
 import './index.css';
 
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       { path: 'posts/users/:id', element: <AuthorPosts /> },
       { path: 'posts/:id/edit', element: <EditPost /> },
       { path: 'posts/:id/delete', element: <DeletePost /> },
+      { path: '/posts', element: <Posts/> },
       { path: 'myposts/:id', element: <Dashboard /> },
       { path: 'logout', element: <Logout /> },
     ],
