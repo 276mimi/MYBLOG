@@ -16,7 +16,7 @@ export default function Footer() {
         <li><Link to='/posts/categories/Technology'>Technology</Link></li>
       </ul>
       <div className='footer-copyright'>
-        <small>All Rights Reserved &copy; Copyright, AneziJane@2024</small>
+        <small>All Rights Reserved &copy; Copyright, MiracleJohn@2024</small>
       </div>
     </footer>
   )
